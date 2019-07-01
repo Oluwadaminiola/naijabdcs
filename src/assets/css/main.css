@@ -1,0 +1,50 @@
+.top-head{
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.26), rgba(67, 67, 67, 0.16)), url('../../../public/img/contact.png');
+    background-size: contain;
+    height: 400px;
+    background-position: center;
+    color: #fff;
+}
+.rectangle-1{
+    border-radius: 4px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.16);
+    padding: 30px 50px;
+
+    /* position: absolute; */
+    /* margin-top: -200px; */
+    /* z-index: 9999999999999999 !important; */
+}
+select.light{
+    height: 48px;
+    border: 1px solid #d8d8d8;
+    background: #fdfdfd;
+    border-radius: 0;
+}
+input.light{
+    height: 48px;
+    border: 1px solid #d8d8d8;
+    background: #fdfdfd;
+    border-radius: 0;
+}
+textarea.light{
+    border: 1px solid #d8d8d8;
+    background: #fdfdfd;
+    border-radius: 0;
+}
+select.form-control:focus, input.form-control:focus, textarea.form-control:focus{
+    box-shadow: none;
+    border: 1px solid #008752;
+}
+::placeholder{
+    color: #ccc;
+    font-size: 14px;
+    font-family: source sans pro;
+}
+@media (max-width: 768px){
+    .rectangle-1{
+        padding: 15px 25px;
+    }
+    .top-head{
+        height: 300px;
+    }
+}
