@@ -1,23 +1,44 @@
 <template>
   <div class="home">
-    
-
     <section id="home">
       <div class="container">
-        <div class="top">
-          <div class="row">
-            <div class="col-12 px-lg-0 px-xs-2 mb-5" style="margin-top: +70px;">
-              <h1 class="w-36">Daily exchange rate at your fingerprint</h1>
-              <small class="w-17">Sign up for daily street market exchange rates</small>
+        <div class="row">
+            <div class="col-lg-8 top col-xs-12">
+              <h1 class="w-48">Daily exchange rate at your fingerprint</h1>
+              <p class="w-17">Sign up for daily street market exchange rates</p>
+              <div class="form-group form-inline">
+                <input type="text" class="form-control grey px-5" >
+                <button class="btn btn-green px-5 ml-2">Sign Up</button>
+              </div>
             </div>
-            <div class="col-lg-6 px-lg-0 px-xs-2 mr-lg-2 col-xs-12 mb-3">
-              <input type="text" class="gr form-control">
+            <div class="col-lg-4 top col-xs-12">
+              <div class="bg-white p-5">
+                <p class="p-20">Currency Converter</p>
+                <div class="border mb-3">
+                  <div class>
+                    <select id="gender" class="currency form-control">
+                      <option style="background-image: url(../../public/img/canada.svg);" value="GBP" >GBP</option>
+                      <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
+                      <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
+                      <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
+                    </select>
+                  </div>
+                  <div class="border-top">
+                    <select class="currency form-control">
+                      <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
+                      <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
+                      <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
+                      <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
+                    </select>
+                  </div>
+                </div>
+                <button class="btn btn-green w-100 mb-4">Convert Currency</button>
+
+                <input type="text" class="grey form-control mb-3" />
+              </div>
             </div>
-            <div class="col-lg-2 px-lg-0 px-xs-2  col-xs-12">
-              <button class="btn btn-green w-100">Sign Up</button>
-            </div>
+
           </div>
-        </div>
         <!-- <div class="bottom pt-3">
           <div class="row">
             <div class="col-1 px-lg-0 px-xs-1">
@@ -31,7 +52,7 @@
               </div>
             </div>
           </div>
-        </div> -->
+        </div>-->
       </div>
     </section>
 
@@ -107,7 +128,7 @@
           </b>
         </div>
       </div>
-    </div> -->
+    </div>-->
 
     <section id="about" class="mb-5">
       <div class="container py-5">
@@ -117,7 +138,7 @@
               <div class="col-lg-6 col-xs-12">
                 <p class="p-19">
                   Bureau De Change Fx Rates By Location
-                  <br>
+                  <br />
                   <small class="p-14">
                     <b style="color: #fa4f4f">*</b> buy / sell rate values
                   </small>
@@ -127,18 +148,18 @@
                 <div class="d-flex">
                   <div class="date input-group">
                     <div class="input-group-prepend px-2">
-                      <img src="../../public/img/calendar.svg" alt>
+                      <img src="../../public/img/calendar.svg" alt />
                     </div>
-                    <input type="date" class="date form-control">
+                    <input type="date" class="date form-control" />
                   </div>
                   <div class="pt-3 px-2">
                     <div class="border" style="width: 40px;"></div>
                   </div>
                   <div class="date input-group">
                     <div class="input-group-prepend px-2">
-                      <img src="../../public/img/calendar.svg" alt>
+                      <img src="../../public/img/calendar.svg" alt />
                     </div>
-                    <input type="date" class="date form-control">
+                    <input type="date" class="date form-control" />
                   </div>
                 </div>
               </div>
@@ -147,7 +168,6 @@
             <div class="table-responsive-md">
               <table class="table red1">
                 <thead>
-                  <th></th>
                   <th>LOCATION</th>
                   <th>MORNING</th>
                   <th>MIDDAY</th>
@@ -162,14 +182,14 @@
                         class="checkbox-custom"
                         name="checkbox-1"
                         type="checkbox"
-                      >
+                      />
                       <label for="checkbox-1" class="checkbox-custom-label p-10"></label> Lagos
                     </td>
                     <td>774/400</td>
                     <td>774/400</td>
                     <td>774/400</td>
                     <td>
-                      <img src="../../public/img/canada.svg" alt> CAD
+                      <img src="../../public/img/canada.svg" alt /> CAD
                     </td>
                   </tr>
                   <tr>
@@ -179,14 +199,14 @@
                         class="checkbox-custom"
                         name="checkbox-2"
                         type="checkbox"
-                      >
+                      />
                       <label for="checkbox-2" class="checkbox-custom-label p-10"></label> Calabar
                     </td>
                     <td>774/400</td>
                     <td>774/400</td>
                     <td>774/400</td>
                     <td>
-                      <img src="../../public/img/usa.svg" alt> USD
+                      <img src="../../public/img/usa.svg" alt /> USD
                     </td>
                   </tr>
                   <tr>
@@ -196,14 +216,14 @@
                         class="checkbox-custom"
                         name="checkbox-3"
                         type="checkbox"
-                      >
+                      />
                       <label for="checkbox-3" class="checkbox-custom-label p-10"></label> Abuja
                     </td>
                     <td>774/400</td>
                     <td>774/400</td>
                     <td>774/400</td>
                     <td>
-                      <img src="../../public/img/gpb.svg" alt> GBP
+                      <img src="../../public/img/gpb.svg" alt /> GBP
                     </td>
                   </tr>
                   <tr>
@@ -213,14 +233,14 @@
                         class="checkbox-custom"
                         name="checkbox-4"
                         type="checkbox"
-                      >
+                      />
                       <label for="checkbox-4" class="checkbox-custom-label p-10"></label> Kano
                     </td>
                     <td>774/400</td>
                     <td>774/400</td>
                     <td>774/400</td>
                     <td>
-                      <img src="../../public/img/euro.png" height="20px" alt> EURO
+                      <img src="../../public/img/euro.png" height="20px" alt /> EURO
                     </td>
                   </tr>
                   <tr>
@@ -230,49 +250,53 @@
                         class="checkbox-custom"
                         name="checkbox-5"
                         type="checkbox"
-                      >
+                      />
                       <label for="checkbox-5" class="checkbox-custom-label p-10"></label> Port Harcourt
                     </td>
                     <td>774/400</td>
                     <td>774/400</td>
                     <td>774/400</td>
                     <td>
-                      <img src="../../public/img/drh.svg" alt> DRH
+                      <img src="../../public/img/drh.svg" alt /> DRH
                     </td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </div>
-          <div class="col-lg-3 col-xs-12 px-5">
-            <p class="p-20">Currency Converter</p>
-            <div class="border mb-3">
-              <div class>
-                <select id="gender" class="currency form-control">
-                  <option style="background-image: url(../../public/img/canada.svg);" value="GBP">GBP</option>
-                  <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
-                  <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
-                  <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
-                </select>
-              </div>
-              <div class="border-top">
-                <select class="currency form-control">
-                  <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
-                  <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
-                  <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
-                  <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
-                </select>
-              </div>
-            </div>
-            <button class="btn btn-green w-100 mb-4">Convert Currency</button>
+          <div class="col-lg-3 col-xs-12">
+            <h1 class="p-20 mb-3 ">Market News</h1>
+            <p class="b-down w-40 mb-0"></p>
+            <hr class="mt-0">
 
-            <input type="text" class="grey form-control mb-3">
+            <a href="#">
+              <p class="p-14">
+                <b>Uber targets expansion in fast-growing West African markets</b><br>
+                <small style="color: #979797;">June 25th</small>
+              </p>
+            </a>
             <p class="p-14">
+              <b>Uber targets expansion in fast-growing West African markets</b><br>
+              <small style="color: #979797;">June 25th</small>
+            </p>
+            <p class="p-14">
+              <b>Uber targets expansion in fast-growing West African markets</b><br>
+              <small style="color: #979797;">June 25th</small>
+            </p>
+            <p class="p-14">
+              <b>Uber targets expansion in fast-growing West African markets</b><br>
+              <small style="color: #979797;">June 25th</small>
+            </p>
+            <p class="p-14">
+              <b>Uber targets expansion in fast-growing West African markets</b><br>
+              <small style="color: #979797;">June 25th</small>
+            </p>
+            <!-- <p class="p-14">
               <b style="color: #fa4f4f">*</b> The existing rate engine platforms is
               built sorely for display of FX rates,
               currency converter, adverts, historic rates,
               about us and contact.
-            </p>
+            </p> -->
           </div>
         </div>
       </div>
@@ -289,18 +313,18 @@
                 <div class="d-flex">
                   <div class="date input-group">
                     <div class="input-group-prepend px-2">
-                      <img src="../../public/img/calendar.svg" alt>
+                      <img src="../../public/img/calendar.svg" alt />
                     </div>
-                    <input type="text" placeholder="Location" class="date form-control">
+                    <input type="text" placeholder="Location" class="date form-control" />
                   </div>
                   <div class="pt-3 px-2">
                     <div class="border" style="width: 40px;"></div>
                   </div>
                   <div class="date input-group">
                     <div class="input-group-prepend px-2">
-                      <img src="../../public/img/calendar.svg" alt>
+                      <img src="../../public/img/calendar.svg" alt />
                     </div>
-                    <input type="text" placeholder="Currency" class="date form-control">
+                    <input type="text" placeholder="Currency" class="date form-control" />
                   </div>
                 </div>
               </div>
@@ -308,7 +332,7 @@
 
             <div id="chartdiv" style="height: 400px; min-width: 310px"></div>
           </div>
-          <div class="col-lg-3 col-xs-12 px-5">
+          <div class="col-lg-3 col-xs-12">
             <div class="w-100 blackBox mb-4"></div>
             <div class="w-100 blackBox mb-4"></div>
           </div>
@@ -325,14 +349,14 @@
                 height="350px;"
                 style="margin-top: -20px; margin-right: -7px;"
                 alt
-              >
+              />
             </p>
           </div>
           <div class="col-lg-8 px-5 col-xs-12 py-5 google">
             <p class="w-36">Get the Naija bdc app</p>
             <p class="w-20">No deal Brexit chills sends pounds to a five month low vs euro</p>
             <a href="#">
-              <img src="../../public/img/googleplay.png" height="50px;" alt>
+              <img src="../../public/img/googleplay.png" height="50px;" alt />
             </a>
           </div>
         </div>
@@ -348,19 +372,19 @@
                 <thead>
                   <th>
                     NGN
-                    <img src="../../public/img/nigeria-1@2x.png" style="height:13px;" alt>
+                    <img src="../../public/img/nigeria-1@2x.png" style="height:13px;" alt />
                   </th>
                   <th>
                     USD
-                    <img src="../../public/img/usa.svg" style="height:13px;" alt>
+                    <img src="../../public/img/usa.svg" style="height:13px;" alt />
                   </th>
                   <th>
                     GSP
-                    <img src="../../public/img/gpb.svg" style="height:13px;" alt>
+                    <img src="../../public/img/gpb.svg" style="height:13px;" alt />
                   </th>
                   <th>
                     EURO
-                    <img src="../../public/img/euro.png" style="height:13px;" alt>
+                    <img src="../../public/img/euro.png" style="height:13px;" alt />
                   </th>
                 </thead>
                 <tbody>
@@ -387,19 +411,19 @@
                 <thead>
                   <th>
                     NGN
-                    <img src="../../public/img/nigeria-1@2x.png" style="height:13px;" alt>
+                    <img src="../../public/img/nigeria-1@2x.png" style="height:13px;" alt />
                   </th>
                   <th>
                     USD
-                    <img src="../../public/img/usa.svg" style="height:13px;" alt>
+                    <img src="../../public/img/usa.svg" style="height:13px;" alt />
                   </th>
                   <th>
                     GSP
-                    <img src="../../public/img/gpb.svg" style="height:13px;" alt>
+                    <img src="../../public/img/gpb.svg" style="height:13px;" alt />
                   </th>
                   <th>
                     EURO
-                    <img src="../../public/img/euro.png" style="height:13px;" alt>
+                    <img src="../../public/img/euro.png" style="height:13px;" alt />
                   </th>
                 </thead>
                 <tbody>
@@ -428,7 +452,7 @@
           <div class="col-lg-4 col-xs-12 py-4 px-5">
             <p class="p-17">Sign up for daily parallel market FX rates</p>
             <p class="w-14">We’ll not spam you. Promise!</p>
-            <input type="email" class="g form-control mb-3" placeholder="yourmail@email.com">
+            <input type="email" class="g form-control mb-3" placeholder="yourmail@email.com" />
             <button class="btn btn-green">Send Me Rates</button>
           </div>
           <div class="col-lg-4 col-xs-12 py-4 px-5">
@@ -439,7 +463,7 @@
               </div>
               <div class="py-1 px-3 w-14">
                 4, Oluwaleyimu Street, P.O.Box 15750,
-                <br>Ikeja, Lagos, Nigeria.
+                <br />Ikeja, Lagos, Nigeria.
               </div>
             </div>
             <div class="d-flex row">
@@ -448,8 +472,8 @@
               </div>
               <div class="py-1 px-3 w-14">
                 080-23202255, 081-3843 0600,
-                <br>070-84009851, 080-34612197,
-                <br>080-88981824
+                <br />070-84009851, 080-34612197,
+                <br />080-88981824
               </div>
             </div>
           </div>
@@ -469,7 +493,7 @@
                 <i class="fab fa-instagram" style="color: #fff;"></i>
               </a>
               <a href="#" class="p-2 w-14">
-                <img src="../../public/img/youtube.svg" alt>
+                <img src="../../public/img/youtube.svg" alt />
               </a>
             </div>
           </div>
@@ -489,14 +513,14 @@
                 src="../../public/img/abcon.png"
                 class="mx-2"
                 style="height: 30px;"
-              >
+              />
               Technical Partners:
               <img
                 src="../../public/img/sbsc.png"
                 class="mx-2"
                 style="height: 30px;"
-              >
-              <img src="../../public/img/tech (2).jpg" class="mx-2" style="height: 30px;">
+              />
+              <img src="../../public/img/tech (2).jpg" class="mx-2" style="height: 30px;" />
             </p>
           </div>
         </div>

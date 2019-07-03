@@ -9,10 +9,9 @@
     border-radius: 4px;
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.16);
     padding: 30px 50px;
-
-    /* position: absolute; */
-    /* margin-top: -200px; */
-    /* z-index: 9999999999999999 !important; */
+    background: #fff;
+    position: relative;
+    margin-top: -220px;
 }
 select.light{
     height: 48px;
@@ -40,11 +39,61 @@ select.form-control:focus, input.form-control:focus, textarea.form-control:focus
     font-size: 14px;
     font-family: source sans pro;
 }
+#latest .card figure{
+  max-width: 400px;
+  min-width: 300px;
+  overflow: hidden !important;
+}
+#latest .card figure img.card-img-top  {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#latest .card:hover figure img.card-img-top {
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+}
 @media (max-width: 768px){
     .rectangle-1{
-        padding: 15px 25px;
+        padding: 15px 20px;
+        margin-top: 0;
     }
     .top-head{
         height: 300px;
     }
 }
+
+.read-more-state {
+    display: none;
+  }
+  
+  .read-more-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .read-more-state:checked ~ .read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+  }
+  
+  .read-more-state ~ .read-more-trigger:before {
+    content: "Read more";
+  }
+  
+  .read-more-state:checked ~ .read-more-trigger:before {
+    content: "Read less";
+  }
+  
+  .read-more-trigger {
+    cursor: pointer;
+    display: inline-block;
+    color: #008752;
+    font-family: source sans pro;
+    font-size: 14px;
+    font-weight: 600;
+  }

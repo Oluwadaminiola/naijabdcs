@@ -2,7 +2,7 @@
   <div class="about" style="margin-top: +70px;">
     <div class="top-head">
       <div class="container p-5">
-        <p class="w-48">Contact Us</p>
+        <p class="w-48 pt-5">Contact Us</p>
         <div class="d-flex row px-2">
           <a href="#" class="py-2 px-3">
             <i class="fab fa-facebook-f" style="color: #fff;"></i>
@@ -24,60 +24,60 @@
     </div>
     <section id="contact" class="py-5">
       <div class="container">
-        <div class="container">
+        <div class="px-5">
           <div class="row">
-            <div class="col-lg-6 col-xs-12">
+            <div class="col-lg-5 col-xs-12">
               <div class="row">
-                <div class="col-1"></div>
-                <div class="col-11">
+                <div class="col-2 text-right pr-0"></div>
+                <div class="col-10">
                   <p class="g-24">OUR OFFICE</p>
                 </div>
-                <div class="col-1 mb-3"></div>
-                <div class="col-11 mb-3">
+                <div class="col-2 mb-3"></div>
+                <div class="col-10 mb-3">
                   <b>
                     <u class="p-14">ABCON NATIONAL SECRETARIAT</u>
                   </b>
                 </div>
-                <div class="col-1">
+                <div class="col-2 text-right pr-0">
                   <i class="fas fa-map-marker-alt" style="color: #008752;font-size: 18px;"></i>
                 </div>
-                <div class="col-11">
+                <div class="col-10">
                   <p class="p-14">
                     4, Oluwaleyimu Street
                     <br />P.O.Box 15750, Ikeja
                     <br />Lagos-Nigeria
                   </p>
                 </div>
-                <div class="col-1 mb-5">
+                <div class="col-2 text-right pr-0 mb-5">
                   <i class="fas fa-phone-alt" style="color: #008752;font-size: 18px;"></i>
                 </div>
-                <div class="col-11 mb-5">
+                <div class="col-10 mb-5">
                   <p class="p-14">
                     08023202255, 08138430600, 07084009851,
                     <br />08034612197, 08088981824
                   </p>
                 </div>
           
-                <div class="col-1 mb-3"></div>
-                <div class="col-11 mb-3">
+                <div class="col-2 text-right pr-0 mb-3"></div>
+                <div class="col-10 mb-3">
                   <b>
                     <u class="p-14">ABCON NATIONAL SECRETARIAT</u>
                   </b>
                 </div>
-                <div class="col-1">
+                <div class="col-2 text-right pr-0">
                   <i class="fas fa-map-marker-alt" style="color: #008752;font-size: 18px;"></i>
                 </div>
-                <div class="col-11">
+                <div class="col-10">
                   <p class="p-14">
                     Suite 307A Samfa Plaza,<br/>
                     Opp.Old Corporate Affairs Commission<br/>
                     (CAC) Office,Zone 5,Wuse Abuja
                   </p>
                 </div>
-                <div class="col-1 mb-5">
+                <div class="col-2 text-right pr-0 mb-5">
                   <i class="fas fa-phone-alt" style="color: #008752;font-size: 18px;"></i>
                 </div>
-                <div class="col-11 mb-5">
+                <div class="col-10 mb-5">
                   <p class="p-14">
                     08030745636, 08038454484
                   </p>
@@ -87,9 +87,9 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-xs-12">
+            <div class="col-lg-6 col-xs-12 px-lg-5 px-xs-1">
               <div class="rectangle-1">
-                <p class="p-20 mb-5">GET IN TOUCH WITH US.</p>
+                <p class="p-20 mb-4">GET IN TOUCH WITH US.</p>
                 <label for class="p-15">
                   <b>First Name</b>
                 </label>
@@ -120,7 +120,7 @@
       </div>
     </section>
     <section id="signup">
-      <div class="container">
+      <div class="container mt-5">
         <div class="row">
           <div class="col-lg-4 col-xs-12 py-4 px-5">
             <p class="p-17">Sign up for daily parallel market FX rates</p>
@@ -173,7 +173,7 @@
         </div>
       </div>
     </section>
-    <div class="footer pt-3">
+    <div class="footer pt-3 pb-5">
       <div class="container">
         <div class="row">
           <div class="col col-xs-12">

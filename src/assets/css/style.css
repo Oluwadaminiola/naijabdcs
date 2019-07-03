@@ -6,7 +6,7 @@ body{
     width: 100%;
 }
 .container{
-    max-width: 1350px !important;
+    /* max-width: 1300px !important; */
 }
 
 /* navbar */
@@ -64,7 +64,7 @@ select{
 }
 #home .top{
     height: 76vh;
-    width: 55%;
+    width: 100%;
     display: flex;
     flex-flow: column;
     align-content: center;
@@ -85,9 +85,30 @@ select{
     border-bottom: solid 1px #ebebf2;
 }
 #getapp .google{
-    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.26), rgba(67, 67, 67, 0.16)), url('../../../public/img/worldmap.png');
+    background: url('../../../public/img/worldmap.png');
     /* background-size: contain; */
     height: 300px;
+}
+#newss{
+    background: url('../../../public/img/world-map.png');
+}
+#latest .card .card-img-top{
+    border-radius: 0;
+    height: 270px; 
+}
+#latest .card{
+    border: none;
+    border-bottom: 1px solid #d8d8d8;
+    border-radius: 0;
+    transition: .3s ease-in-out;
+}
+#latest .card:hover{
+    border-bottom: 1px solid #008752;
+    cursor: pointer;
+}
+#latest .card:hover .card-title b{
+    color: #008752 !important;
+    
 }
 .blackBox{
     height: 250px;
@@ -115,6 +136,17 @@ select{
     font-family: source sans pro;
     font-size: 15px;
 }
+.p-16{
+    color: #404040;
+    font-family: source sans pro;
+    font-size: 16px;
+    line-height: 1.69;
+}
+.g-17{
+    color: #404040;
+    font-family: source sans pro;
+    font-size: 17px;
+}
 .p-17{
     color: #008752;
     font-family: source sans pro;
@@ -124,6 +156,11 @@ select{
     color: #fff;
     font-family: source sans pro;
     font-size: 17px;
+}
+.p-18{
+    font-size: 18px;
+    font-family: source sans pro;
+    color: #404040;
 }
 .p-19{
     font-size: 19px;
@@ -225,7 +262,7 @@ select.currency.form-control:focus{
     font-family: Source sans pro;
     font-size: 15px;
     font-weight: 600;
-    height: 48px;
+    height: 42px;
     border-radius: 0;
     transition: .3s ease-in-out;
 }
@@ -300,9 +337,23 @@ select.currency.form-control:focus{
     transform: rotate(45deg);
     top: 4px; left: 6px;
   }
+.b-left{
+    border-left: 5px solid #008752;
+}
+p.b-down{
+    width: 150px;
+    border-bottom: 4px solid #008752;
+    margin-bottom: -2px !important;
+}
 @media (max-width: 768px){
     .p-15{
         font-size: 12px;
+    }
+    .p-16{
+        font-size: 13px;
+    }
+    .g-17, .p-17{
+        font-size: 14px;
     }
     #home .top{
         width: 100%;
