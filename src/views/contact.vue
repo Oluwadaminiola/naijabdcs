@@ -1,7 +1,7 @@
 <template>
   <div class="about" style="margin-top: +70px;">
     <div class="top-head">
-      <div class="container p-5">
+      <div class="container py-5">
         <p class="w-48 pt-5">Contact Us</p>
         <div class="d-flex row px-2">
           <a href="#" class="py-2 px-3">
@@ -24,7 +24,7 @@
     </div>
     <section id="contact" class="py-5">
       <div class="container">
-        <div class="px-5">
+        <div class="">
           <div class="row">
             <div class="col-lg-5 col-xs-12">
               <div class="row">
@@ -87,7 +87,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-xs-12 px-lg-5 px-xs-1">
+            <div class="col-lg-6 col-xs-12 ">
               <div class="rectangle-1">
                 <p class="p-20 mb-4">GET IN TOUCH WITH US.</p>
                 <label for class="p-15">
@@ -122,13 +122,13 @@
     <section id="signup">
       <div class="container mt-5">
         <div class="row">
-          <div class="col-lg-4 col-xs-12 py-4 px-5">
+          <div class="col-lg-4 col-xs-12 py-4">
             <p class="p-17">Sign up for daily parallel market FX rates</p>
             <p class="w-14">We’ll not spam you. Promise!</p>
             <input type="email" class="g form-control mb-3" placeholder="yourmail@email.com" />
             <button class="btn btn-green">Send Me Rates</button>
           </div>
-          <div class="col-lg-4 col-xs-12 py-4 px-5">
+          <div class="col-lg-4 col-xs-12 py-4">
             <p class="p-17">Contact Us</p>
             <div class="d-flex row">
               <div class="py-1 px-3">
@@ -150,7 +150,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-xs-12 py-4 px-5">
+          <div class="col-lg-4 col-xs-12 py-4">
             <p class="p-17">Follow Us On</p>
             <div class="d-flex row px-2">
               <a href="#" class="p-2">
@@ -173,7 +173,7 @@
         </div>
       </div>
     </section>
-    <div class="footer pt-3 pb-5">
+    <div class="footer pt-3 pb-5 mb-4">
       <div class="container">
         <div class="row">
           <div class="col col-xs-12">

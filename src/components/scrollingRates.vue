@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav class="fixed-bottom">
-      <div class="marquee border-bottom">
+      <div class="marquee py-1 border-bottom">
         <div class="marquee-content">
           <span class="item-collection-1">
             <span><b class="p-15 px-3">BTN/NGN = 60703.3594</b></span>
@@ -25,7 +25,7 @@
         </div>
       </div>
 
-      <div class="marquee1">
+      <div class="marquee1 py-1">
         <div class="marquee-content1">
           <span class="item-collection-11">
             <span><b class="p-15 px-3">BTN/NGN = 60703.3594</b></span>
@@ -56,6 +56,10 @@
 export default {};
 </script>
 <style scoped>
+nav.fixed-bottom{
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.16);
+  border: solid 1px #ebebf2;
+}
 .marquee {
   width: 100%;
   background: rgba(255, 255, 255, 0.3);

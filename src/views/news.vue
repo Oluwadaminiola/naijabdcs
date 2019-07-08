@@ -1,7 +1,7 @@
 <template>
   <div class="about" style="margin-top: +70px;">
     <div class="top-head">
-      <div class="container p-5">
+      <div class="container py-5">
         <p class="w-48 pt-5">Latest News</p>
         <b class="w-1p">Home&nbsp;&nbsp;</b>
         <b class="p-17">/&nbsp;&nbsp;News</b>
@@ -114,13 +114,13 @@
     <section id="signup">
       <div class="container mt-5">
         <div class="row">
-          <div class="col-lg-4 col-xs-12 py-4 px-5">
+          <div class="col-lg-4 col-xs-12 py-4">
             <p class="p-17">Sign up for daily parallel market FX rates</p>
             <p class="w-14">We’ll not spam you. Promise!</p>
             <input type="email" class="g form-control mb-3" placeholder="yourmail@email.com" />
             <button class="btn btn-green">Send Me Rates</button>
           </div>
-          <div class="col-lg-4 col-xs-12 py-4 px-5">
+          <div class="col-lg-4 col-xs-12 py-4">
             <p class="p-17">Contact Us</p>
             <div class="d-flex row">
               <div class="py-1 px-3">
@@ -142,7 +142,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-xs-12 py-4 px-5">
+          <div class="col-lg-4 col-xs-12 py-4">
             <p class="p-17">Follow Us On</p>
             <div class="d-flex row px-2">
               <a href="#" class="p-2">
@@ -165,7 +165,7 @@
         </div>
       </div>
     </section>
-    <div class="footer pt-3 pb-5">
+    <div class="footer pt-3 pb-5 mb-4">
       <div class="container">
         <div class="row">
           <div class="col col-xs-12">

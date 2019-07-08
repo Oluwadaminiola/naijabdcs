@@ -1,23 +1,28 @@
 <template>
   <div class="home">
     <section id="home">
-      <div class="container">
-        <div class="row">
-            <div class="col-lg-8 top col-xs-12">
+      <div id="particles-js"></div>
+      <div class="htome">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-xs-12">
               <h1 class="w-48">Daily exchange rate at your fingerprint</h1>
               <p class="w-17">Sign up for daily street market exchange rates</p>
               <div class="form-group form-inline">
-                <input type="text" class="form-control grey px-5" >
-                <button class="btn btn-green px-5 ml-2">Sign Up</button>
+                <input type="text" class="form-control grey px-5 mt-2" />
+                <button class="btn btn-green px-5 ml-lg-2 ml-xs-0 mt-2">Sign Up</button>
               </div>
             </div>
-            <div class="col-lg-4 top col-xs-12">
+            <div class="col-lg-4 col-xs-12">
               <div class="bg-white p-5">
                 <p class="p-20">Currency Converter</p>
                 <div class="border mb-3">
                   <div class>
                     <select id="gender" class="currency form-control">
-                      <option style="background-image: url(../../public/img/canada.svg);" value="GBP" >GBP</option>
+                      <option
+                        style="background-image: url(../../public/img/canada.svg);"
+                        value="GBP"
+                      >GBP</option>
                       <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
                       <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
                       <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
@@ -33,26 +38,67 @@
                   </div>
                 </div>
                 <button class="btn btn-green w-100 mb-4">Convert Currency</button>
-
+        
                 <input type="text" class="grey form-control mb-3" />
               </div>
             </div>
-
           </div>
-        <!-- <div class="bottom pt-3">
-          <div class="row">
-            <div class="col-1 px-lg-0 px-xs-1">
-              <b class="y-15 px-3">NEWS</b>
-            </div>
-            <div class="col-11 pl-5">
-              <div class="sitemessage w-14">
-                No deal Brexit chills sends pounds to a five month low vs euro...&nbsp;&nbsp;
-                Facebook will make the money now...&nbsp;&nbsp;
-                Euros fall sharply as ECBs Draghi clears path for...&nbsp;&nbsp;
+        </div>
+      </div>
+      <div class>
+        <div class="container" style>
+          <!-- <div class="row">
+              <div class="col-lg-8 col-xs-12">
+                <h1 class="w-48">Daily exchange rate at your fingerprint</h1>
+                <p class="w-17">Sign up for daily street market exchange rates</p>
+                <div class="form-group form-inline">
+                  <input type="text" class="form-control grey px-5 mt-2" >
+                  <button class="btn btn-green px-5 ml-lg-2 ml-xs-0 mt-2">Sign Up</button>
+                </div>
+              </div>
+              <div class="col-lg-4 col-xs-12">
+                <div class="bg-white p-5">
+                  <p class="p-20">Currency Converter</p>
+                  <div class="border mb-3">
+                    <div class>
+                      <select id="gender" class="currency form-control">
+                        <option style="background-image: url(../../public/img/canada.svg);" value="GBP" >GBP</option>
+                        <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
+                        <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
+                        <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
+                      </select>
+                    </div>
+                    <div class="border-top">
+                      <select class="currency form-control">
+                        <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
+                        <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
+                        <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
+                        <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
+                      </select>
+                    </div>
+                  </div>
+                  <button class="btn btn-green w-100 mb-4">Convert Currency</button>
+        
+                  <input type="text" class="grey form-control mb-3" />
+                </div>
+              </div>
+        
+          </div>-->
+          <!-- <div class="bottom pt-3">
+            <div class="row">
+              <div class="col-1 px-lg-0 px-xs-1">
+                <b class="y-15 px-3">NEWS</b>
+              </div>
+              <div class="col-11 pl-5">
+                <div class="sitemessage w-14">
+                  No deal Brexit chills sends pounds to a five month low vs euro...&nbsp;&nbsp;
+                  Facebook will make the money now...&nbsp;&nbsp;
+                  Euros fall sharply as ECBs Draghi clears path for...&nbsp;&nbsp;
+                </div>
               </div>
             </div>
-          </div>
-        </div>-->
+          </div>-->
+        </div>
       </div>
     </section>
 
@@ -265,30 +311,35 @@
             </div>
           </div>
           <div class="col-lg-3 col-xs-12">
-            <h1 class="p-20 mb-3 ">Market News</h1>
+            <h1 class="p-20 mb-3">Market News</h1>
             <p class="b-down w-40 mb-0"></p>
-            <hr class="mt-0">
+            <hr class="mt-0" />
 
             <a href="#">
               <p class="p-14">
-                <b>Uber targets expansion in fast-growing West African markets</b><br>
+                <b>Uber targets expansion in fast-growing West African markets</b>
+                <br />
                 <small style="color: #979797;">June 25th</small>
               </p>
             </a>
             <p class="p-14">
-              <b>Uber targets expansion in fast-growing West African markets</b><br>
+              <b>Uber targets expansion in fast-growing West African markets</b>
+              <br />
               <small style="color: #979797;">June 25th</small>
             </p>
             <p class="p-14">
-              <b>Uber targets expansion in fast-growing West African markets</b><br>
+              <b>Uber targets expansion in fast-growing West African markets</b>
+              <br />
               <small style="color: #979797;">June 25th</small>
             </p>
             <p class="p-14">
-              <b>Uber targets expansion in fast-growing West African markets</b><br>
+              <b>Uber targets expansion in fast-growing West African markets</b>
+              <br />
               <small style="color: #979797;">June 25th</small>
             </p>
             <p class="p-14">
-              <b>Uber targets expansion in fast-growing West African markets</b><br>
+              <b>Uber targets expansion in fast-growing West African markets</b>
+              <br />
               <small style="color: #979797;">June 25th</small>
             </p>
             <!-- <p class="p-14">
@@ -296,7 +347,7 @@
               built sorely for display of FX rates,
               currency converter, adverts, historic rates,
               about us and contact.
-            </p> -->
+            </p>-->
           </div>
         </div>
       </div>
@@ -449,13 +500,13 @@
     <section id="signup">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 col-xs-12 py-4 px-5">
+          <div class="col-lg-4 col-xs-12 py-4">
             <p class="p-17">Sign up for daily parallel market FX rates</p>
             <p class="w-14">We’ll not spam you. Promise!</p>
             <input type="email" class="g form-control mb-3" placeholder="yourmail@email.com" />
             <button class="btn btn-green">Send Me Rates</button>
           </div>
-          <div class="col-lg-4 col-xs-12 py-4 px-5">
+          <div class="col-lg-4 col-xs-12 py-4">
             <p class="p-17">Contact Us</p>
             <div class="d-flex row">
               <div class="py-1 px-3">
@@ -477,7 +528,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-xs-12 py-4 px-5">
+          <div class="col-lg-4 col-xs-12 py-4">
             <p class="p-17">Follow Us On</p>
             <div class="d-flex row px-2">
               <a href="#" class="p-2">
@@ -500,7 +551,7 @@
         </div>
       </div>
     </section>
-    <div class="footer pt-3">
+    <div class="footer pt-3 pb-5 mb-4">
       <div class="container">
         <div class="row">
           <div class="col col-xs-12">
@@ -530,7 +581,7 @@
 </template>
 
 <script>
-// @ is an alias to /src
+import particles from "particles.js";
 import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
@@ -539,6 +590,120 @@ export default {
     HelloWorld
   },
   mounted() {
+    console.log("mounted");
+
+    particlesJS("home", {
+      particles: {
+        number: {
+          value: 140,
+          density: {
+            enable: true,
+            value_area: 800
+          }
+        },
+        color: {
+          value: "#ffffff"
+        },
+        shape: {
+          type: "circle",
+          stroke: {
+            width: 0,
+            color: "#000000"
+          },
+          polygon: {
+            nb_sides: 5
+          },
+          image: {
+            src: "img/github.svg",
+            width: 100,
+            height: 100
+          }
+        },
+        opacity: {
+          value: 0.5,
+          random: false,
+          anim: {
+            enable: true,
+            speed: 1,
+            opacity_min: 0.1,
+            sync: false
+          }
+        },
+        size: {
+          value: 3,
+          random: true,
+          anim: {
+            enable: true,
+            speed: 4,
+            size_min: 0.3,
+            sync: true
+          }
+        },
+        line_linked: {
+          enable: false,
+          distance: 150,
+          color: "#ffffff",
+          opacity: 0.4,
+          width: 1
+        },
+        move: {
+          enable: true,
+          speed: 1,
+          direction: "none",
+          random: true,
+          straight: false,
+          out_mode: "out",
+          bounce: false,
+          attract: {
+            enable: false,
+            rotateX: 600,
+            rotateY: 600
+          }
+        }
+      },
+      interactivity: {
+        detect_on: "window  ",
+        events: {
+          onhover: {
+            enable: true,
+            mode: "bubble"
+          },
+          onclick: {
+            enable: true,
+            mode: "push"
+          },
+          resize: true
+        },
+        modes: {
+          grab: {
+            distance: 140,
+            line_linked: {
+              // "enabled" : false,
+              opacity: 0
+            }
+          },
+          bubble: {
+            distance: 400,
+            size: 2,
+            duration: 2,
+            opacity: 8,
+            speed: 3
+          },
+          repulse: {
+            distance: 200,
+            duration: 0.4
+          },
+          push: {
+            particles_nb: 4
+          },
+          remove: {
+            particles_nb: 2
+          }
+        }
+      },
+      retina_detect: true
+    });
+
     am4core.useTheme(am4themes_animated);
     // Themes end
 

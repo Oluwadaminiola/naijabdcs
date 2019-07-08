@@ -54,7 +54,26 @@ select.form-control:focus, input.form-control:focus, textarea.form-control:focus
 	-webkit-transform: scale(1.15);
 	transform: scale(1.15);
 }
+.htome{
+  position: absolute;
+  top: 70px;
+  left: 9%;  right: 9%;
+  min-height: 100% !important; 
+  padding-top: 100px;
+}
+@media (max-width: 1024px){
+  #home{
+    max-height: 700px !important;
+  }
+}
 @media (max-width: 768px){
+  #home{
+    height: 700px !important; 
+  }
+    .htome{
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
     .rectangle-1{
         padding: 15px 20px;
         margin-top: 0;
@@ -62,11 +81,17 @@ select.form-control:focus, input.form-control:focus, textarea.form-control:focus
     .top-head{
         height: 300px;
     }
+    .htome{
+      position: absolute;
+      top: 70px;
+      left: 3%;
+      height: 500px !important;
+    }
 }
 
 .read-more-state {
     display: none;
-  }
+}
   
   .read-more-target {
     opacity: 0;
