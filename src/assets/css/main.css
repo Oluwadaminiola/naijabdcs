@@ -1,4 +1,4 @@
-.top-head{
+ .top-head{
     background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.26), rgba(67, 67, 67, 0.16)), url('../../../public/img/contact.png');
     background-size: contain;
     height: 400px;
@@ -61,12 +61,96 @@ select.form-control:focus, input.form-control:focus, textarea.form-control:focus
   min-height: 100% !important; 
   padding-top: 100px;
 }
+.btn-group a{
+  color: #404040;
+  text-decoration: none;
+  font-family: source sans pro;
+}
+.addmin{
+  background: #fafafa;
+  margin-top: 100px;
+}
+.ad_rectangle{
+  border: solid 1px #ebebf2;
+  background-color: #ffffff;
+  padding: 40px 50px;
+}
+.ad_greyrec{
+  border: solid 1px #ebebf2;
+  background-color: rgba(216, 216, 216, 0.1);
+  padding: 24px 32px;
+}
+.ad_shadowrec{
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  padding: 20px 40px;
+}
+.topnav{
+  background: #fff;
+}
+.greennav{
+  background: #008752;
+  color: #fff;
+  font-size: 15px;
+}
+.greennav a.nav-link{
+  color: rgba(255, 255, 255, 0.5);
+  font-family: source sans pro;
+  font-size: 15px;
+}
+.greennav .nav-item.active, .greennav .nav-item:hover{
+  color: #fff !important;
+}
+.greennav a.nav-link img.aa{
+  opacity: 1;
+}
+.greennav a.nav-link img.bb{
+  position: absolute;
+  margin-left: -20px;
+  opacity: 0;
+}
+.greennav .nav-item.active a.router-link-exact-active img.aa{
+  opacity: 0;
+}
+.greennav .nav-item.active a.router-link-exact-active img.bb{
+ opacity: 1;
+}
+.greennav .nav-item.active a.router-link-exact-active{
+  color: #fff;
+}
+.table.ad_table thead{
+  border: none !important;
+  border-bottom: 1px solid #ebebf2 !important;
+}
+.table.ad_table thead th{
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  font-weight: 600;
+  color: #b4bac1;
+  border: none;
+}
+.table.table-striped.ad_table tbody tr:nth-of-type(odd){
+  background: transparent !important;
+}
+.table.table-striped.ad_table tbody tr:nth-of-type(even){
+  background: rgba(151, 151, 151, 0.05) !important;
+}
+
 @media (max-width: 1024px){
   #home{
     max-height: 700px !important;
   }
 }
 @media (max-width: 768px){
+  .ad_rectangle{
+    padding: 20px 25px;
+  }
+  .ad_greyrec{
+    padding: 12px 16px;
+  }
+  .ad_shadowrec{
+    padding: 10px 20px;
+  }
   #home{
     height: 700px !important; 
   }

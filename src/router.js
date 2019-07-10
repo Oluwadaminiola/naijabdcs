@@ -5,6 +5,12 @@ import History from './views/historicRates.vue'
 import Gallery from './views/gallery.vue'
 import Contact from './views/contact.vue'
 import News from './views/news.vue'
+import Admin from './views/admin/admin'
+import Operators from './views/admin/operator'
+import Newrate from './views/admin/newrate'
+import Advert from './views/admin/advert'
+import Previousrate from './views/admin/previousrate'
+import Settings from './views/admin/settings'
 // import Home from './views/Home.vue'
 
 Vue.use(Router)
@@ -45,6 +51,38 @@ export default new Router({
       path: '/gallery',
       name: 'gallery',
       component: Gallery
+    },
+    {
+      path: '/admin',
+      name: 'admin',
+      component: Admin,
+      children: [
+        {
+          path: 'operators',
+          name: 'operators',
+          component: Operators
+        },
+        {
+          path: 'newrate',
+          name: 'newrate',
+          component: Newrate
+        },
+        {
+          path: 'advert',
+          name: 'advert',
+          component: Advert
+        },
+        {
+          path: 'previousrate',
+          name: 'previousrate',
+          component: Previousrate
+        },
+        {
+          path: 'settings',
+          name: 'settings',
+          component: Settings
+        },
+      ]
     },
     { path: '*', redirect: '/' }
   ]

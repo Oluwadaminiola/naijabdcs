@@ -1,12 +1,55 @@
 <template>
   <div class="home">
+    <nav class="navbar navbar-default navbar-light fixed-top navbar-expand-md">
+      <div class="container">
+        <router-link to="/" class="navbar-brand">
+          <img src="../../public/img/toplogo.png" height="32px;" alt />
+        </router-link>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#naijanav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="naijanav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-2 px-0" :class="{'active': $route.path == '/'}">
+              <router-link to="/" class="nav-link">Home</router-link>
+            </li>
+            <li class="nav-item mx-2 px-0" :class="{'active': $route.path == '/about'}">
+              <router-link to="/about" class="nav-link">About Us</router-link>
+            </li>
+            <li class="nav-item mx-2 px-0" :class="{'active': $route.path == '/historic-rates'}">
+              <router-link to="/historic-rates" class="nav-link">Historic Rates</router-link>
+            </li>
+            <li class="nav-item mx-2 px-0" :class="{'active': $route.path == '/news'}">
+              <router-link to="/news" class="nav-link">News</router-link>
+            </li>
+            <li class="nav-item mx-2 px-0" :class="{'active': $route.path == '/gallery'}">
+              <router-link to="/gallery" class="nav-link">Gallery</router-link>
+            </li>
+            <li class="nav-item mx-2 px-0" :class="{'active': $route.path == '/contact-us'}">
+              <router-link to="/contact-us" class="nav-link">Contact Us</router-link>
+            </li>
+            <li class="nav-item mx-2">
+              <form class="form-inline input-group px-1">
+                <div class="input-group-prepend px-1">
+                  <img src="../../public/img/worldsvg.svg" alt />
+                </div>
+                <select name id class="form-control px-0 py-0" style="width: 30px; height: 30px;">
+                  <option value>EN</option>
+                  <option value>BR</option>
+                </select>
+              </form>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <section id="home">
       <div id="particles-js"></div>
       <div class="htome">
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-xs-12">
-              <h1 class="w-48">Daily exchange rate at your fingerprint</h1>
+              <h1 class="w-48" style="margin-top: +80px;">Daily exchange rate at your fingertips</h1>
               <p class="w-17">Sign up for daily street market exchange rates</p>
               <div class="form-group form-inline">
                 <input type="text" class="form-control grey px-5 mt-2" />
@@ -17,28 +60,81 @@
               <div class="bg-white p-5">
                 <p class="p-20">Currency Converter</p>
                 <div class="border mb-3">
-                  <div class>
-                    <select id="gender" class="currency form-control">
-                      <option
-                        style="background-image: url(../../public/img/canada.svg);"
-                        value="GBP"
-                      >GBP</option>
-                      <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
-                      <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
-                      <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
-                    </select>
+                  <div class=" px-3 py-2">
+                    <div class="btn-group">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <img src="../../public/img/usa.svg" /> USD
+                        <span class="caret"></span>
+                      </a>
+                      <ul class="dropdown-menu ">
+                        <li class="px-3 py-2 border-bottom">
+                          <a href="javascript:void(0);">
+                            <img src="../../public/img/oval-copy-7.jpg"/> EURO
+                          </a>
+                        </li>
+                        <li class="px-3 py-2 border-bottom">
+                          <a href="javascript:void(0);">
+                            <img src="../../public/img/canada.svg" /> CAD
+                          </a>
+                        </li>
+                        <li class="px-3 py-2 border-bottom">
+                          <a href="javascript:void(0);">
+                            <img src="../../public/img/drh.svg" /> DRH
+                          </a>
+                        </li>
+                        <li class="px-3 py-2 border-bottom">
+                          <a href="javascript:void(0);">
+                            <img src="../../public/img/gpb.svg" /> GBP
+                          </a>
+                        </li>
+                        <li class="px-3 py-2 border-bottom">
+                          <a href="javascript:void(0);">
+                            <img src="../../public/img/usa.svg" /> USD
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    
                   </div>
-                  <div class="border-top">
-                    <select class="currency form-control">
-                      <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
-                      <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
-                      <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
-                      <option style="background-image: url(../../public/img/canada.svg);">GBP</option>
-                    </select>
+                  <div class="border-top px-3 py-2">
+                    <div class="btn-group">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <img src="../../public/img/usa.svg" /> USD
+                        <span class="caret"></span>
+                      </a>
+                      <ul class="dropdown-menu ">
+                        <li class="px-3 py-2 border-bottom">
+                          <a href="javascript:void(0);">
+                            <img src="../../public/img/oval-copy-7.jpg"/> EURO
+                          </a>
+                        </li>
+                        <li class="px-3 py-2 border-bottom">
+                          <a href="javascript:void(0);">
+                            <img src="../../public/img/canada.svg" /> CAD
+                          </a>
+                        </li>
+                        <li class="px-3 py-2 border-bottom">
+                          <a href="javascript:void(0);">
+                            <img src="../../public/img/drh.svg" /> DRH
+                          </a>
+                        </li>
+                        <li class="px-3 py-2 border-bottom">
+                          <a href="javascript:void(0);">
+                            <img src="../../public/img/gpb.svg" /> GBP
+                          </a>
+                        </li>
+                        <li class="px-3 py-2 border-bottom">
+                          <a href="javascript:void(0);">
+                            <img src="../../public/img/usa.svg" /> USD
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    
                   </div>
                 </div>
                 <button class="btn btn-green w-100 mb-4">Convert Currency</button>
-        
+
                 <input type="text" class="grey form-control mb-3" />
               </div>
             </div>
@@ -116,20 +212,17 @@
           </span>
           <span>
             <b class="p-15">
-              NGN/SDG = 203.35
-              <img src="../../public/img/arrow-down.svg">
+              NGN/SDG = 203.35 <img src="../../public/img/arrow-down.svg">
             </b>
           </span>
           <span>
             <b class="p-15">
-              NGN/BBD = 180.1802
-              <img src="../../public/img/arrow-up.svg">
+              NGN/BBD = 180.1802 <img src="../../public/img/arrow-up.svg">
             </b>
           </span>
           <span>
             <b class="p-15">
-              NGN/USD = 361.0108
-              <img src="../../public/img/arrow-up.svg">
+              NGN/USD = 361.0108 <img src="../../public/img/arrow-up.svg">
             </b>
           </span>
           <span>
@@ -137,15 +230,13 @@
           </span>
           <span>
             <b class="p-15">
-              NGN/BRL = 93.3707
-              <img src="../../public/img/arrow-down.svg">
+              NGN/BRL = 93.3707 <img src="../../public/img/arrow-down.svg">
             </b>
           </span>
           
           <span>
             <b class="p-15">
-              NGN/BBD = 180.1802
-              <img src="../../public/img/arrow-up.svg">
+              NGN/BBD = 180.1802 <img src="../../public/img/arrow-up.svg">
             </b>
           </span>
         </p>
@@ -194,22 +285,22 @@
                 <div class="d-flex">
                   <div class="date input-group">
                     <div class="input-group-prepend px-2">
-                      <img src="../../public/img/calendar.svg" alt />
+                      <img src="../../public/img/calendar.svg" />
                     </div>
                     <input type="date" class="date form-control" />
                   </div>
-                  <div class="pt-3 px-2">
-                    <div class="border" style="width: 40px;"></div>
+                  <div class="pt-3 px-2 ">
+                    <div class="border p-center"></div>
                   </div>
                   <div class="date input-group">
                     <div class="input-group-prepend px-2">
-                      <img src="../../public/img/calendar.svg" alt />
+                      <img src="../../public/img/calendar.svg" />
                     </div>
                     <input type="date" class="date form-control" />
                   </div>
                 </div>
               </div>
-            </div>
+            </div> 
 
             <div class="table-responsive-md">
               <table class="table red1">
@@ -348,6 +439,40 @@
               currency converter, adverts, historic rates,
               about us and contact.
             </p>-->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="mid" class="mb-4">
+      <div class="container">
+        <div class="mid">
+          <div class="row">
+            <div class="col-12 mb-4">
+              <h1 class="w-24">
+                Search for approved BDC ’s operators across Nigeria<br>
+              </h1>
+              <small class="w-14">
+                <a href="#" class="w-14">
+                  Click here to see list of accredited Bureau De Change agents in Nigeria. 
+                </a>
+              </small>
+            </div>
+            <div class="col-lg-5 px-1 col-xs-12 mb-3">
+              <input type="text" class="gr form-control" placeholder="Name of Operator" >
+            </div>
+            <div class="col-lg-5 px-1 col-xs-12 mb-3">
+              <select name="" id="" class="gr form-control">
+                <option value="">Location</option>
+                <option value="">Abuja</option>
+                <option value="">Lagos</option>
+                <option value="">Port harcourt</option>
+              </select>
+            </div>
+            <div class="col-lg-2 px-1 col-xs-12 mb-3">
+              <button class="btn btn-dark-green w-100">
+                Search Operator
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -590,6 +715,18 @@ export default {
     HelloWorld
   },
   mounted() {
+    $(".dropdown-menu li a").click(function() {
+      var selText = $(this).text();
+      var imgSource = $(this)
+        .find("img")
+        .attr("src");
+      var img = '<img src="' + imgSource + '"/>';
+      $(this)
+        .parents(".btn-group")
+        .find(".dropdown-toggle")
+        .html(img + " " + selText + ' <span class="caret"></span>');
+    });
+
     console.log("mounted");
 
     particlesJS("home", {
@@ -640,7 +777,7 @@ export default {
           }
         },
         line_linked: {
-          enable: false,
+          enable: true  ,
           distance: 150,
           color: "#ffffff",
           opacity: 0.4,

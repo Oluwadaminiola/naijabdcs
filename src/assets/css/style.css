@@ -10,10 +10,12 @@ body{
 }
 
 /* navbar */
-nav{
+nav.navbar-light{
     background: #fff;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.16);
+    border: solid 1px #ebebf2;
 }
-nav a.nav-link{
+nav.navbar-light a.nav-link{
     font-family: Source sans pro;
     color: #404040;
     font-size: 15px;
@@ -21,7 +23,7 @@ nav a.nav-link{
 .dropdown-togle::after{
     display: none;
 }
-nav .input-group select{
+nav.navbar-light .input-group select{
     border: none;
     color: #404040;
     font-family: source sans pro;
@@ -31,21 +33,21 @@ nav .input-group select{
 .nav-item{
     transition: .3s ease-in-out;
 }
-nav .input-group{
+nav.navbar-light .input-group{
     border-radius: 3px;
     border: solid 1px #03b102;
 }
-nav .input-group select.form-control:focus{
+nav.navbar-light .input-group select.form-control:focus{
     box-shadow: none;
 }
 .navbar-light .navbar-nav .active > .nav-link{
     color: unset;
 }
-.nav-item.active, .nav-item:hover{
+.navbar-light .nav-item.active, .navbar-light .nav-item:hover{
     color: #008752 !important;
     border-bottom: 4px solid #008752;
 }
-.nav-item.active a.router-link-exact-active{
+.navbar-light .nav-item.active a.router-link-exact-active{
     color: #008752;
 }
 select{
@@ -122,9 +124,21 @@ canvas+.particles-js-canvas-el{
     color: #008752 !important;
     
 }
+#mid{
+    background: #008752;
+    color: #fff;
+    text-align: center;
+}
+#mid .mid{
+    background: url('../../../public/img/world.png') !important;
+    padding: 70px 120px;
+}
 .blackBox{
     height: 250px;
     background: #222;
+}
+.p-center{
+    width: 40px;
 }
 
 /* font-sizes */
@@ -133,10 +147,24 @@ canvas+.particles-js-canvas-el{
     font-family: source sans pro;
     font-size: 14px;
 }
+.pl-14{
+    color: #31384c;
+    font-family: source sans pro;
+    font-size: 14px;
+}
 .w-14{
     color: #fff;
     font-family: source sans pro;
     font-size: 14px;
+}
+a.w-14:hover{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+.l-12{
+    color: #b4bac1;
+    font-family: source sans pro;
+    font-size: 12px;
 }
 .p-15{
     color: #404040;
@@ -189,6 +217,17 @@ canvas+.particles-js-canvas-el{
     font-family: source sans pro;
     font-size: 20px;
 }
+.w-24{
+    color: #fff;
+    font-family: source sans pro;
+    font-size: 24px;
+}
+.p-24{
+    font-size: 24px;
+    font-family: source sans pro;
+    color: #404040;
+    font-weight: 600;
+}
 .g-24{
     color: #008752;
     font-family: source sans pro;
@@ -202,12 +241,20 @@ canvas+.particles-js-canvas-el{
 }
 
 /* input forms */
+.lightform{
+  height: 42px;
+  border-radius: 2px;
+  border: solid 1px #ebebf2;
+  background-color: #ffffff;
+  font-family: source sans pro;
+  font-size: 15px;
+}
 .grey.form-control{
     border-radius: 0;
     height: 42px;
     
 }
-.grey.form-control:focus{
+.grey.form-control:focus, .lightform.form-control:focus{
     box-shadow: none;
     border: 1px solid #008752;
 }
@@ -267,6 +314,20 @@ select.currency.form-control:focus{
   
 
 /* buttons */
+.btn-white{
+  border-radius: 2px;
+  border: solid 1px rgba(0, 135, 82, 0.5);
+  background-color: #ffffff;
+  color: #008752;
+  font-family: source sans pro;
+  font-size: 15px;
+  font-weight: 600;
+  transition: .3s ease-in-out;
+}
+.btn-white:hover{
+    background:  #008752;
+    color: #fff;
+}
 .btn-green{
     background: #008752;
     border: 1px solid #008752;
@@ -282,16 +343,31 @@ select.currency.form-control:focus{
     background: #fff;
     color: #008752;
 }
+.btn-dark-green{
+    background: #00472b;
+    border: 1px solid #00472b;
+    color: #fff;
+    font-family: Source sans pro;
+    font-size: 15px;
+    font-weight: 600;
+    height: 42px;
+    border-radius: 0;
+    transition: .3s ease-in-out;
+}
+.btn-dark-green:hover{
+    background: #fff;
+    color: #00472b;
+}
 
 
 /* table */
-.table thead{
+.table.red1 thead, .table.red thead, .table.yel thead{
     border: solid 1px #ebebf2;
 }
 .table.red1 thead th{
     border-bottom: 1px solid #fa4f4f;
 }
-.table tbody tr{
+.table.red1 tbody tr, .table.red tbody tr, .table.yel tbody tr{
     margin-top: +20px !important;
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
 }
@@ -311,7 +387,7 @@ select.currency.form-control:focus{
 .table.exchange.red{
     border-top: 2px solid #fa4f4f;
 }
-.table-striped tbody tr:nth-of-type(odd){
+.table-striped.red tbody tr:nth-of-type(odd), .table-striped.yel tbody tr:nth-of-type(odd){
     border-top: solid 1px #d8d8d8;
     box-shadow: none;
     border-bottom: solid 1px #d8d8d8;
@@ -359,6 +435,12 @@ p.b-down{
     margin-bottom: -2px !important;
 }
 @media (max-width: 768px){
+    #mid .mid{
+        padding: 20px 20px;
+    }
+    .p-center{
+        width: 2px;
+    }
     .p-15{
         font-size: 12px;
     }

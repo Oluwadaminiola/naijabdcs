@@ -1,89 +1,134 @@
 <template>
-  <div class="about" style="margin-top: +70px;">
-    <div class="top-head">
-      <div class="container py-5">
-        <p class="w-48 pt-5">Gallery</p>
-        <b class="w-1p">Home&nbsp;&nbsp;</b>
-        <b class="p-17">/&nbsp;&nbsp;Gallery</b>
+  <div>
+    <nav class="navbar navbar-default navbar-light fixed-top navbar-expand-md">
+      <div class="container">
+        <router-link to="/" class="navbar-brand">
+          <img src="../../public/img/toplogo.png" height="32px;" alt />
+        </router-link>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#naijanav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="naijanav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-2 px-0" :class="{'active': $route.path == '/'}">
+              <router-link to="/" class="nav-link">Home</router-link>
+            </li>
+            <li class="nav-item mx-2 px-0" :class="{'active': $route.path == '/about'}">
+              <router-link to="/about" class="nav-link">About Us</router-link>
+            </li>
+            <li class="nav-item mx-2 px-0" :class="{'active': $route.path == '/historic-rates'}">
+              <router-link to="/historic-rates" class="nav-link">Historic Rates</router-link>
+            </li>
+            <li class="nav-item mx-2 px-0" :class="{'active': $route.path == '/news'}">
+              <router-link to="/news" class="nav-link">News</router-link>
+            </li>
+            <li class="nav-item mx-2 px-0" :class="{'active': $route.path == '/gallery'}">
+              <router-link to="/gallery" class="nav-link">Gallery</router-link>
+            </li>
+            <li class="nav-item mx-2 px-0" :class="{'active': $route.path == '/contact-us'}">
+              <router-link to="/contact-us" class="nav-link">Contact Us</router-link>
+            </li>
+            <li class="nav-item mx-2">
+              <form class="form-inline input-group px-1">
+                <div class="input-group-prepend px-1">
+                  <img src="../../public/img/worldsvg.svg" alt />
+                </div>
+                <select name id class="form-control px-0 py-0" style="width: 30px; height: 30px;">
+                  <option value>EN</option>
+                  <option value>BR</option>
+                </select>
+              </form>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-
-    <section id="signup">
-      <div class="container mt-5">
-        <div class="row">
-          <div class="col-lg-4 col-xs-12 py-4">
-            <p class="p-17">Sign up for daily parallel market FX rates</p>
-            <p class="w-14">We’ll not spam you. Promise!</p>
-            <input type="email" class="g form-control mb-3" placeholder="yourmail@email.com" />
-            <button class="btn btn-green">Send Me Rates</button>
-          </div>
-          <div class="col-lg-4 col-xs-12 py-4">
-            <p class="p-17">Contact Us</p>
-            <div class="d-flex row">
-              <div class="py-1 px-3">
-                <i class="fas fa-map-marker-alt" style="color: #008752;font-size: 18px;"></i>
+    </nav>
+    <div class="about" style="margin-top: +60px;">
+      <div class="top-head">
+        <div class="container py-5">
+          <p class="w-48 pt-5">Gallery</p>
+          <b class="w-1p">Home&nbsp;&nbsp;</b>
+          <b class="p-17">/&nbsp;&nbsp;Gallery</b>
+        </div>
+      </div>
+    
+      <section id="signup">
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-lg-4 col-xs-12 py-4">
+              <p class="p-17">Sign up for daily parallel market FX rates</p>
+              <p class="w-14">We’ll not spam you. Promise!</p>
+              <input type="email" class="g form-control mb-3" placeholder="yourmail@email.com" />
+              <button class="btn btn-green">Send Me Rates</button>
+            </div>
+            <div class="col-lg-4 col-xs-12 py-4">
+              <p class="p-17">Contact Us</p>
+              <div class="d-flex row">
+                <div class="py-1 px-3">
+                  <i class="fas fa-map-marker-alt" style="color: #008752;font-size: 18px;"></i>
+                </div>
+                <div class="py-1 px-3 w-14">
+                  4, Oluwaleyimu Street, P.O.Box 15750,
+                  <br />Ikeja, Lagos, Nigeria.
+                </div>
               </div>
-              <div class="py-1 px-3 w-14">
-                4, Oluwaleyimu Street, P.O.Box 15750,
-                <br />Ikeja, Lagos, Nigeria.
+              <div class="d-flex row">
+                <div class="py-1 px-3">
+                  <i class="fas fa-phone-alt" style="color: #008752;font-size: 18px;"></i>
+                </div>
+                <div class="py-1 px-3 w-14">
+                  080-23202255, 081-3843 0600,
+                  <br />070-84009851, 080-34612197,
+                  <br />080-88981824
+                </div>
               </div>
             </div>
-            <div class="d-flex row">
-              <div class="py-1 px-3">
-                <i class="fas fa-phone-alt" style="color: #008752;font-size: 18px;"></i>
+            <div class="col-lg-4 col-xs-12 py-4">
+              <p class="p-17">Follow Us On</p>
+              <div class="d-flex row px-2">
+                <a href="#" class="p-2">
+                  <i class="fab fa-facebook-f" style="color: #fff;"></i>
+                </a>
+                <a href="#" class="p-2">
+                  <i class="fab fa-twitter" style="color: #fff;"></i>
+                </a>
+                <a href="#" class="p-2">
+                  <i class="fab fa-google-plus-g" style="color: #fff;"></i>
+                </a>
+                <a href="#" class="p-2">
+                  <i class="fab fa-instagram" style="color: #fff;"></i>
+                </a>
+                <a href="#" class="p-2 w-14">
+                  <img src="../../public/img/youtube.svg" alt />
+                </a>
               </div>
-              <div class="py-1 px-3 w-14">
-                080-23202255, 081-3843 0600,
-                <br />070-84009851, 080-34612197,
-                <br />080-88981824
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-xs-12 py-4">
-            <p class="p-17">Follow Us On</p>
-            <div class="d-flex row px-2">
-              <a href="#" class="p-2">
-                <i class="fab fa-facebook-f" style="color: #fff;"></i>
-              </a>
-              <a href="#" class="p-2">
-                <i class="fab fa-twitter" style="color: #fff;"></i>
-              </a>
-              <a href="#" class="p-2">
-                <i class="fab fa-google-plus-g" style="color: #fff;"></i>
-              </a>
-              <a href="#" class="p-2">
-                <i class="fab fa-instagram" style="color: #fff;"></i>
-              </a>
-              <a href="#" class="p-2 w-14">
-                <img src="../../public/img/youtube.svg" alt />
-              </a>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <div class="footer pt-3 pb-5 mb-4">
-      <div class="container">
-        <div class="row">
-          <div class="col col-xs-12">
-            <p class="p-14">© 2019 All right reserved.</p>
-          </div>
-          <div class="ml-auto col col-xs-12">
-            <p class="p-14 text-right">
-              Powered by ABCON
-              <img
-                src="../../public/img/abcon.png"
-                class="mx-2"
-                style="height: 30px;"
-              />
-              Technical Partners:
-              <img
-                src="../../public/img/sbsc.png"
-                class="mx-2"
-                style="height: 30px;"
-              />
-              <img src="../../public/img/tech (2).jpg" class="mx-2" style="height: 30px;" />
-            </p>
+      </section>
+      <div class="footer pt-3 pb-5 mb-4">
+        <div class="container">
+          <div class="row">
+            <div class="col col-xs-12">
+              <p class="p-14">© 2019 All right reserved.</p>
+            </div>
+            <div class="ml-auto col col-xs-12">
+              <p class="p-14 text-right">
+                Powered by ABCON
+                <img
+                  src="../../public/img/abcon.png"
+                  class="mx-2"
+                  style="height: 30px;"
+                />
+                Technical Partners:
+                <img
+                  src="../../public/img/sbsc.png"
+                  class="mx-2"
+                  style="height: 30px;"
+                />
+                <img src="../../public/img/tech (2).jpg" class="mx-2" style="height: 30px;" />
+              </p>
+            </div>
           </div>
         </div>
       </div>
