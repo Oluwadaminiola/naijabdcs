@@ -69,6 +69,7 @@ select.form-control:focus, input.form-control:focus, textarea.form-control:focus
 .addmin{
   background: #fafafa;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 .ad_rectangle{
   border: solid 1px #ebebf2;
@@ -127,15 +128,31 @@ select.form-control:focus, input.form-control:focus, textarea.form-control:focus
   font-size: 12px;
   font-weight: 600;
   color: #b4bac1;
-  border: none;
+  border-top: none !important;
+}
+.table.ad_table tbody td{
+  border-top: none !important;
 }
 .table.table-striped.ad_table tbody tr:nth-of-type(odd){
   background: transparent !important;
+  border-top: none !important;
 }
 .table.table-striped.ad_table tbody tr:nth-of-type(even){
   background: rgba(151, 151, 151, 0.05) !important;
+  border-top: none !important;
 }
-
+.nav-tabs.ad_tabs .nav-link{
+border: none;
+background: transparent;
+font-family: source sans pro;
+font-size: 14px;
+color: #31384c;
+padding-left: 0;
+}
+.nav-tabs.ad_tabs .nav-link.active{
+  border-bottom: 2px solid #008752;
+  color: #008752;
+}
 @media (max-width: 1024px){
   #home{
     max-height: 700px !important;

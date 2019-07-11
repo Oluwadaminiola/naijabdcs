@@ -3,11 +3,11 @@
     <div class="container">
       <div class="ad_rectangle">
         <div class="row">
-          <div class="col-lg-6 col-xs-12">
+          <div class="col-lg-10 col-xs-12">
             <h1 class="p-24">Advert Management</h1>
           </div>
-          <div class="col-lg-6 col-xs-12 text-right">
-            <button class="ml-auto btn btn-white">Bulk Upload</button>
+          <div class="col-lg-2 col-xs-12 ">
+            <button class="ml-auto btn btn-white w-100">Bulk Upload</button>
           </div>
           <div class="col-12">
             <hr />
@@ -32,7 +32,11 @@
                     </div>
                     <div class="col-lg-6 col-xs-12 mb-4">
                       <label for class="pl-14">Upload Banner</label>
-                      <input type="text" class="lightform form-control" />
+                      <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="validatedCustomFile" />
+                        <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+                        
+                      </div>
                     </div>
 
                     <div class="col-lg-6 col-xs-12 mb-4">
@@ -60,7 +64,7 @@
           <div class="col-12 mb-3">
             <b class="p-15">About Us Page</b>
             <br />
-            <small class="l-12">This  controls all adverts on the About us page</small>
+            <small class="l-12">This controls all adverts on the About us page</small>
           </div>
           <div class="col-12">
             <div class="ad_greyrec">
@@ -77,7 +81,7 @@
                     </div>
                     <div class="col-lg-6 col-xs-12 mb-4">
                       <label for class="pl-14">Upload Banner</label>
-                      <input type="text" class="lightform form-control" />
+                      <input type="file" class="lightform form-control" />
                     </div>
 
                     <div class="col-lg-6 col-xs-12 mb-4">

@@ -16,7 +16,7 @@
                         </div>
                         <div class="col-lg-6 col-xs-12 mb-4">
                             <label for="" class="pl-14">Select Currency</label>
-                            <select name="" id="" class="lightform form-control">
+                            <select name="" id="" class="lightform custom-select">
                                 <option value="">USD</option>
                                 <option value="">GPB</option>
                                 <option value="">CAD</option>

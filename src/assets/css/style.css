@@ -50,11 +50,30 @@ nav.navbar-light .input-group select.form-control:focus{
 .navbar-light .nav-item.active a.router-link-exact-active{
     color: #008752;
 }
-select{
+.input-group select{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
 }
+
+
+/* random*/
+.dropdown-toggle:after { content: none }
+.badge.badge-pill.badge-danger{
+    font-size: 8px;
+    font-family: source sans pro;
+    position: absolute;
+    margin-left: -5px;
+}
+a.top-text-block:hover{
+text-decoration: none;
+
+}
+.notify:hover{
+    background: rgba(0,135,82, 0.1) !important;
+    color: #fff;
+}
+
 
 /* sections */
 #home{
@@ -310,6 +329,18 @@ input.date:focus{
 select.currency.form-control:focus{
     border: 1px solid #008752;
     box-shadow: none;
+}
+.lightform::placeholder{
+    color: #d5dadf !important; 
+}
+.input-group.lightform:focus{
+    border: #008752 !important;
+}
+.input-group.lightform input{
+    border: none;
+}
+.input-group.lightform input.form-control{
+    border: none;
 }
   
 

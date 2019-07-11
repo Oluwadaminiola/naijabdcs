@@ -15,7 +15,7 @@
                         </div>
                         <div class="col-lg-6 col-xs-12 mb-4">
                             <label for="" class="pl-14">Full Name</label>
-                            <input type="text" class="lightform form-control">
+                            <input type="text" class="lightform form-control" placeholder="John Doe">
                         </div>
                         <div class="col-lg-6 col-xs-12 mb-4">
                             <b class="p-15">Type of Institution</b><br>
@@ -23,7 +23,7 @@
                         </div>
                         <div class="col-lg-6 col-xs-12 mb-4">
                             <label for="" class="pl-14">Type of Institution</label>
-                            <select name="" id="" class="lightform form-control">
+                            <select name="" id="" class="lightform form-control custom-select">
                                 <option value="">Bureau de change</option>
                                 <option value="">Bank</option>
                                 <option value="">Bureau de change</option>
@@ -35,7 +35,7 @@
                         </div>
                         <div class="col-lg-6 col-xs-12 mb-4">
                             <label for="" class="pl-14">Date</label>
-                            <input type="date" class="lightform form-control">
+                            <input type="date" class="lightform form-control" placeholder="mm / dd / yyyy">
                         </div>
                         <div class="col-lg-6 col-xs-12 mb-4">
                             <b class="p-15">Address</b><br>
@@ -43,11 +43,11 @@
                         </div>
                         <div class="col-lg-6 col-xs-12 mb-4">
                             <label for="" class="pl-14">Address</label>
-                            <input type="text" class="lightform form-control">
+                            <input type="text" class="lightform form-control" placeholder="47 Ignacio Ramp Apt. 631">
                             <label for="" class="pl-14">City</label>
-                            <input type="text" class="lightform form-control">
+                            <input type="text" class="lightform form-control" placeholder="Portharcourt">
                             <label for="" class="pl-14">Country</label>
-                            <input type="text" class="lightform form-control">
+                            <input type="text" class="lightform form-control" placeholder="Nigeria">
                         </div>
                         <div class="col-lg-6 col-xs-12 mb-4">
                             <b class="p-15">Telephone</b><br>
@@ -55,7 +55,13 @@
                         </div>
                         <div class="col-lg-6 col-xs-12 mb-4">
                             <label for="" class="pl-14">Phone Number</label>
-                            <input type="text" class="lightform form-control">
+                            <div class="input-group lightform">
+                                <div class="input-group-prepend pt-2 p-14 pl-3">
+                                    234
+                                </div>
+                                <input type="text" class="form-control">
+                            </div>
+                            
                         </div>
                         <div class="col-lg-6 col-xs-12 mb-4">
                             <b class="p-15">Fax</b><br>
