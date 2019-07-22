@@ -25,6 +25,13 @@ input.light{
     background: #fdfdfd;
     border-radius: 0;
 }
+input.converter{
+  border: none;
+}
+input.converter:focus{
+  box-shadow: none;
+  border: 1px solid #fdfdfd;
+}
 textarea.light{
     border: 1px solid #d8d8d8;
     background: #fdfdfd;
@@ -150,7 +157,7 @@ color: #31384c;
 padding-left: 0;
 }
 .nav-tabs.ad_tabs .nav-link.active{
-  border-bottom: 2px solid #008752;
+  border-bottom: 5px solid #008752;
   color: #008752;
 }
 @media (max-width: 1024px){
@@ -222,4 +229,39 @@ padding-left: 0;
     font-family: source sans pro;
     font-size: 14px;
     font-weight: 600;
+  }
+
+  .selectBox{
+    min-width: 100px;
+    height: 48px;
+  }
+  .selectBox:after{
+    content:"\f107 ";
+    font-family: FontAwesome; 
+    color: #000;
+    font-size: 13px;
+    position: absolute;
+    margin-left: -20px;
+    /* right: 0; */
+    margin-top: +9px;
+    z-index: 1;
+    width: 10%;
+    height: 100%;
+    pointer-events: none;
+  }
+  .selectBox select.form-control{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: solid 1px #f0f0f0;
+    background-color: #ffffff;
+    height: 40px;
+    border-radius: 1px;
+    font-size: 14px;
+    font-family: Source sans pro;
+    color: #31384c;
+    min-width: 150px;
+  }
+  .selectBox select.form-control:focus{
+    border: 1px solid #008752;
   }

@@ -31,10 +31,10 @@
             <div class="tab-content">
               <div role="tabpanel" class="tab-pane active" id="usermanagement">
                 <div class="row">
-                  <div class="col-12">
+                  <!-- <div class="col-12">
                     <h5 class="g-17">User Management</h5>
                     <hr />
-                  </div>
+                  </div> -->
                   <div class="col-12">
                     <div class="table-responsive-md">
                       <table class="table table-striped ad_table">
@@ -49,36 +49,36 @@
                           <tr>
                             <td>Marc Huff</td>
                             <td>vivien.feest@gmail.com</td>
-                            <td>Administrator</td>
-                            <td>Active</td>
+                            <td>Administrator &nbsp;<i class="fas fa-chevron-down" style="font-size: 10px;" ></i></td>
+                            <td><i class="fas fa-circle" style="font-size: 8px; color: #38f94d;" ></i> &nbsp;&nbsp; Active <i class="fas fa-chevron-down" style="font-size: 10px;" ></i></td>
                             <td>07:38AM</td>
                           </tr>
                           <tr>
                             <td>Marc Huff</td>
                             <td>vivien.feest@gmail.com</td>
-                            <td>Administrator</td>
-                            <td>Active</td>
+                            <td>Administrator &nbsp;<i class="fas fa-chevron-down" style="font-size: 10px;" ></i></td>
+                            <td><i class="fas fa-circle" style="font-size: 8px; color: #38f94d;" ></i> &nbsp;&nbsp; Active <i class="fas fa-chevron-down" style="font-size: 10px;" ></i></td>
                             <td>07:38AM</td>
                           </tr>
                           <tr>
                             <td>Marc Huff</td>
                             <td>vivien.feest@gmail.com</td>
-                            <td>Administrator</td>
-                            <td>Active</td>
+                            <td>Administrator &nbsp;<i class="fas fa-chevron-down" style="font-size: 10px;" ></i></td>
+                            <td><i class="fas fa-circle" style="font-size: 8px; color: #38f94d;" ></i> &nbsp;&nbsp; Active <i class="fas fa-chevron-down" style="font-size: 10px;" ></i></td>
                             <td>07:38AM</td>
                           </tr>
                           <tr>
                             <td>Marc Huff</td>
                             <td>vivien.feest@gmail.com</td>
-                            <td>Administrator</td>
-                            <td>Active</td>
+                            <td>Administrator &nbsp;<i class="fas fa-chevron-down" style="font-size: 10px;" ></i></td>
+                            <td><i class="fas fa-circle" style="font-size: 8px; color: #38f94d;" ></i> &nbsp;&nbsp;Active <i class="fas fa-chevron-down" style="font-size: 10px;" ></i></td>
                             <td>07:38AM</td>
                           </tr>
                           <tr>
                             <td>Marc Huff</td>
                             <td>vivien.feest@gmail.com</td>
-                            <td>Administrator</td>
-                            <td>Active</td>
+                            <td>Administrator &nbsp;<i class="fas fa-chevron-down" style="font-size: 10px;" ></i></td>
+                            <td><i class="fas fa-circle" style="font-size: 8px; color: #38f94d;" ></i> &nbsp;&nbsp;Active <i class="fas fa-chevron-down" style="font-size: 10px;" ></i></td>
                             <td>07:38AM</td>
                           </tr>
                         </tbody>

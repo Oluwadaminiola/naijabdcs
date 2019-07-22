@@ -17,16 +17,19 @@
               <div class="bg-white p-5">
                 <p class="p-20">Currency Converter</p>
                 <div class="border mb-3">
-                  <div class=" px-3 py-2">
+                  <div class="px-3 py-2">
                     <div class="btn-group">
                       <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                         <img src="../../public/img/usa.svg" /> USD
                         <span class="caret"></span>
                       </a>
-                      <ul class="dropdown-menu ">
+                      <span>
+                        <input type="text" class="converter" />
+                      </span>
+                      <ul class="dropdown-menu">
                         <li class="px-3 py-2 border-bottom">
                           <a href="javascript:void(0);">
-                            <img src="../../public/img/oval-copy-7.jpg"/> EURO
+                            <img src="../../public/img/oval-copy-7.jpg" /> EURO
                           </a>
                         </li>
                         <li class="px-3 py-2 border-bottom">
@@ -51,18 +54,20 @@
                         </li>
                       </ul>
                     </div>
-                    
                   </div>
                   <div class="border-top px-3 py-2">
                     <div class="btn-group">
-                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                      <a class="dropdown-toggle d-inline" data-toggle="dropdown" href="#">
                         <img src="../../public/img/usa.svg" /> USD
                         <span class="caret"></span>
                       </a>
-                      <ul class="dropdown-menu ">
+                      <span>
+                        <input type="text" class="converter" />
+                      </span>
+                      <ul class="dropdown-menu">
                         <li class="px-3 py-2 border-bottom">
                           <a href="javascript:void(0);">
-                            <img src="../../public/img/oval-copy-7.jpg"/> EURO
+                            <img src="../../public/img/oval-copy-7.jpg" /> EURO
                           </a>
                         </li>
                         <li class="px-3 py-2 border-bottom">
@@ -87,7 +92,6 @@
                         </li>
                       </ul>
                     </div>
-                    
                   </div>
                 </div>
                 <button class="btn btn-green w-100 mb-4">Convert Currency</button>
@@ -246,7 +250,7 @@
                     </div>
                     <input type="date" class="date form-control" />
                   </div>
-                  <div class="pt-3 px-2 ">
+                  <div class="pt-3 px-2">
                     <div class="border p-center"></div>
                   </div>
                   <div class="date input-group">
@@ -257,7 +261,7 @@
                   </div>
                 </div>
               </div>
-            </div> 
+            </div>
 
             <div class="table-responsive-md">
               <table class="table red1">
@@ -406,29 +410,29 @@
           <div class="row">
             <div class="col-12 mb-4">
               <h1 class="w-24">
-                Search for approved BDC ’s operators across Nigeria<br>
+                Search for approved BDC ’s operators across Nigeria
+                <br />
               </h1>
               <small class="w-14">
-                <a href="#" class="w-14">
-                  Click here to see list of accredited Bureau De Change agents in Nigeria. 
-                </a>
+                <a
+                  href="#"
+                  class="w-14"
+                >Click here to see list of accredited Bureau De Change agents in Nigeria.</a>
               </small>
             </div>
             <div class="col-lg-5 px-1 col-xs-12 mb-3">
-              <input type="text" class="gr form-control" placeholder="Name of Operator" >
+              <input type="text" class="gr form-control" placeholder="Name of Operator" />
             </div>
             <div class="col-lg-5 px-1 col-xs-12 mb-3">
-              <select name="" id="" class="gr form-control">
-                <option value="">Location</option>
-                <option value="">Abuja</option>
-                <option value="">Lagos</option>
-                <option value="">Port harcourt</option>
+              <select name id class="gr form-control">
+                <option value>Location</option>
+                <option value>Abuja</option>
+                <option value>Lagos</option>
+                <option value>Port harcourt</option>
               </select>
             </div>
             <div class="col-lg-2 px-1 col-xs-12 mb-3">
-              <button class="btn btn-dark-green w-100">
-                Search Operator
-              </button>
+              <button class="btn btn-dark-green w-100">Search Operator</button>
             </div>
           </div>
         </div>
@@ -734,7 +738,7 @@ export default {
           }
         },
         line_linked: {
-          enable: true  ,
+          enable: true,
           distance: 150,
           color: "#ffffff",
           opacity: 0.4,

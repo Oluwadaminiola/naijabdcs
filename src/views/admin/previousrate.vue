@@ -5,7 +5,28 @@
           <div class="col-lg-6 col-xs-12">
               <h1 class="p-24">Previous Rate</h1>
           </div>
-          <div class="col-lg-6 col-xs-12"></div>
+          <div class="col-lg-6 col-xs-12">
+              <div class="d-flex px-3 row">
+                  <div class="form-inline ml-auto">
+                      <label for="" class="p-15 px-3">Showing</label>
+                      <div class="selectBox mr-lg-5">
+                          <select name="" id="" class="form-control">
+                              <option value="">All Currencies</option>
+                              <option value="">All Currencies</option>
+                              <option value="">All Currencies</option>
+                          </select>
+                      </div>
+                      <label for="" class="p-15 px-3">Filter By</label>
+                      <div class="selectBox">
+                          <select name="" id="" class="form-control">
+                              <option value="">This week</option>
+                              <option value="">This week</option>
+                              <option value="">This week</option>
+                          </select>
+                      </div>
+                  </div>
+              </div>
+          </div>
           <div class="col-12 mt-4">
               <div class="ad_shadowrec">
                   <div class="table-responsive-md">

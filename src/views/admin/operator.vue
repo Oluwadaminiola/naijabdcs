@@ -43,11 +43,11 @@
                         </div>
                         <div class="col-lg-6 col-xs-12 mb-4">
                             <label for="" class="pl-14">Address</label>
-                            <input type="text" class="lightform form-control" placeholder="47 Ignacio Ramp Apt. 631">
+                            <input type="text" class="lightform form-control mb-3" placeholder="47 Ignacio Ramp Apt. 631">
                             <label for="" class="pl-14">City</label>
-                            <input type="text" class="lightform form-control" placeholder="Portharcourt">
+                            <input type="text" class="lightform form-control mb-3" placeholder="Portharcourt">
                             <label for="" class="pl-14">Country</label>
-                            <input type="text" class="lightform form-control" placeholder="Nigeria">
+                            <input type="text" class="lightform form-control mb-3" placeholder="Nigeria">
                         </div>
                         <div class="col-lg-6 col-xs-12 mb-4">
                             <b class="p-15">Telephone</b><br>
@@ -57,7 +57,7 @@
                             <label for="" class="pl-14">Phone Number</label>
                             <div class="input-group lightform">
                                 <div class="input-group-prepend pt-2 p-14 pl-3">
-                                    234
+                                    +234
                                 </div>
                                 <input type="text" class="form-control">
                             </div>
@@ -85,7 +85,7 @@
                         </div>
                         <div class="col-lg-6 col-xs-12 mb-5">
                             <label for="" class="pl-14">Ownership Type</label>
-                            <select name="" id="" class="lightform form-control">
+                            <select name="" id="" class="lightform form-control custom-select">
                                 <option value="">Domestic</option>
                                 <option value="">Corporate</option>
                             </select>
