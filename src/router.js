@@ -21,6 +21,13 @@ export default new Router({
   hash: false,
   routes: [
     {
+      path: '/sign-in',
+      name: 'sign-in',
+      components:{
+        default:() => import('./views/sign-in')
+      }
+    },
+    {
       path: '/',
       name: 'home',
       components:{

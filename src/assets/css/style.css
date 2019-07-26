@@ -252,6 +252,12 @@ a.w-14:hover{
     font-family: source sans pro;
     font-size: 24px;
 }
+.p-32{
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-weight: 600;
+    color: #31384c;
+}
 .w-48{
     color: #fff;
     font-family: source sans pro;
