@@ -14,14 +14,14 @@
               </div>
             </div>
             <div class="col-lg-4 col-xs-12">
-              <div class="bg-white p-5">
+              <div class="bg-white p-5 mt-lg-5">
                 <p class="p-20">Currency Converter</p>
                 <div class="border mb-3">
                   <div class="px-3 py-2">
                     <div class="btn-group">
                       <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                         <img src="../../public/img/usa.svg" /> USD
-                        <span class="caret"></span>
+                        <span class=""><i class="fas fa-caret-down"></i></span>
                       </a>
                       <span>
                         <input type="text" class="converter" />
@@ -59,7 +59,7 @@
                     <div class="btn-group">
                       <a class="dropdown-toggle d-inline" data-toggle="dropdown" href="#">
                         <img src="../../public/img/usa.svg" /> USD
-                        <span class="caret"></span>
+                        <span class=""><i class="fas fa-caret-down"></i></span>
                       </a>
                       <span>
                         <input type="text" class="converter" />
@@ -94,9 +94,9 @@
                     </div>
                   </div>
                 </div>
-                <button class="btn btn-green w-100 mb-4">Convert Currency</button>
+                <!-- <button class="btn btn-green w-100 mb-4">Convert Currency</button>
 
-                <input type="text" class="grey form-control mb-3" />
+                <input type="text" class="grey form-control mb-3" /> -->
               </div>
             </div>
           </div>

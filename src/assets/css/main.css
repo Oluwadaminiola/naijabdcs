@@ -27,10 +27,12 @@ input.light{
 }
 input.converter{
   border: none;
+  max-width: 150px;
+  margin-left: 15px;  
 }
 input.converter:focus{
-  box-shadow: none;
-  border: 1px solid #fdfdfd;
+  box-shadow: none !important;
+  border: 1px solid #fdfdfd !important;
 }
 textarea.light{
     border: 1px solid #d8d8d8;
