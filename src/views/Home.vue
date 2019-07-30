@@ -20,7 +20,7 @@
                   <div class="px-3 py-2">
                     <div class="btn-group">
                       <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        <img src="../../public/img/usa.svg" /> USD
+                        <img src="../../public/img/usa.svg" height="13px;" /> USD
                         <span class=""><i class="fas fa-caret-down"></i></span>
                       </a>
                       <span>
@@ -29,27 +29,27 @@
                       <ul class="dropdown-menu">
                         <li class="px-3 py-2 border-bottom">
                           <a href="javascript:void(0);">
-                            <img src="../../public/img/oval-copy-7.jpg" /> EURO
+                            <img src="../../public/img/oval-copy-7.jpg" height="13px;" /> EURO
                           </a>
                         </li>
                         <li class="px-3 py-2 border-bottom">
                           <a href="javascript:void(0);">
-                            <img src="../../public/img/canada.svg" /> CAD
+                            <img src="../../public/img/canada.svg" height="13px;" /> CAD
                           </a>
                         </li>
                         <li class="px-3 py-2 border-bottom">
                           <a href="javascript:void(0);">
-                            <img src="../../public/img/drh.svg" /> DRH
+                            <img src="../../public/img/drh.svg" height="13px;" /> DRH
                           </a>
                         </li>
                         <li class="px-3 py-2 border-bottom">
                           <a href="javascript:void(0);">
-                            <img src="../../public/img/gpb.svg" /> GBP
+                            <img src="../../public/img/gpb.svg" height="13px;" /> GBP
                           </a>
                         </li>
                         <li class="px-3 py-2 border-bottom">
                           <a href="javascript:void(0);">
-                            <img src="../../public/img/usa.svg" /> USD
+                            <img src="../../public/img/usa.svg" height="13px;" /> USD
                           </a>
                         </li>
                       </ul>
@@ -58,7 +58,7 @@
                   <div class="border-top px-3 py-2">
                     <div class="btn-group">
                       <a class="dropdown-toggle d-inline" data-toggle="dropdown" href="#">
-                        <img src="../../public/img/usa.svg" /> USD
+                        <img src="../../public/img/usa.svg" height="13px;" /> USD
                         <span class=""><i class="fas fa-caret-down"></i></span>
                       </a>
                       <span>
@@ -67,27 +67,27 @@
                       <ul class="dropdown-menu">
                         <li class="px-3 py-2 border-bottom">
                           <a href="javascript:void(0);">
-                            <img src="../../public/img/oval-copy-7.jpg" /> EURO
+                            <img src="../../public/img/oval-copy-7.jpg" height="13px;" /> EURO
                           </a>
                         </li>
                         <li class="px-3 py-2 border-bottom">
                           <a href="javascript:void(0);">
-                            <img src="../../public/img/canada.svg" /> CAD
+                            <img src="../../public/img/canada.svg" height="13px;" /> CAD
                           </a>
                         </li>
                         <li class="px-3 py-2 border-bottom">
                           <a href="javascript:void(0);">
-                            <img src="../../public/img/drh.svg" /> DRH
+                            <img src="../../public/img/drh.svg" height="13px;" /> DRH
                           </a>
                         </li>
                         <li class="px-3 py-2 border-bottom">
                           <a href="javascript:void(0);">
-                            <img src="../../public/img/gpb.svg" /> GBP
+                            <img src="../../public/img/gpb.svg" height="13px;" /> GBP
                           </a>
                         </li>
                         <li class="px-3 py-2 border-bottom">
                           <a href="javascript:void(0);">
-                            <img src="../../public/img/usa.svg" /> USD
+                            <img src="../../public/img/usa.svg" height="13px;" /> USD
                           </a>
                         </li>
                       </ul>

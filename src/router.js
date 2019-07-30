@@ -21,7 +21,7 @@ export default new Router({
   hash: false,
   routes: [
     {
-      path: '/sign-in',
+      path: '/login',
       name: 'sign-in',
       components:{
         default:() => import('./views/sign-in')
