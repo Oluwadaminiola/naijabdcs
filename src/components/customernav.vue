@@ -29,11 +29,11 @@
               <router-link to="/contact-us" class="nav-link">Contact Us</router-link>
             </li>
             <li class="nav-item mx-2">
-              <form class="form-inline input-group px-1">
-                <div class="input-group-prepend px-1">
+              <form class="form-inline input-group px-lg-1">
+                <div class="input-group-prepend px-lg-1">
                   <img src="../../public/img/worldsvg.svg" alt />
                 </div>
-                <select name id class="form-control px-0 py-0" style="width: 30px; height: 30px;">
+                <select class="form-control px-0 py-0" style="width: 30px; height: 30px;">
                   <option value>EN</option>
                   <option value>BR</option>
                 </select>

@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <section id="home">
+    <section id="home" style="background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.26), rgba(67, 67, 67, 0.16)), url('../../public/img/home.png');   ">
       <div id="particles-js"></div>
       <div class="htome">
         <div class="container">
@@ -479,7 +479,7 @@
     <section id="getapp">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-4 px-0 d-none d-md-block col-xs-12">
+          <div class="col-lg-4 col-md-4 px-0 d-none d-md-block col-xs-12">
             <p class="text-right">
               <img
                 src="../../public/img/mobile@2x.png"
@@ -489,7 +489,7 @@
               />
             </p>
           </div>
-          <div class="col-lg-8 px-5 col-xs-12 py-5 google">
+          <div class="col-lg-8 col-md-8 px-5 col-xs-12 py-5 google">
             <p class="w-36">Get the Naija bdc app</p>
             <p class="w-20">No deal Brexit chills sends pounds to a five month low vs euro</p>
             <a href="#">

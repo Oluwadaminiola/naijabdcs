@@ -118,6 +118,7 @@ nav.fixed-bottom {
 .marquee {
   height: 35px;
   width: 1530px;
+  margin: auto;
   overflow: hidden;
   box-sizing: border-box;
   position: relative;
